@@ -101,17 +101,6 @@ public class AllTests {
         System.out.println("Clicked on the \'I confirm my order\'");
         Thread.sleep(2000);
 
-        //WebElement orderReferenceText = driver.findElement(By.xpath("//*[@id=\"center_column\"]/div"));
-        //System.out.println(orderReferenceText.getText());
-        //String ort = orderReferenceText.toString();
-        //System.out.println(ort);
-        //int i;
-        //String word;
-        //for (i=0; i<=ort.length(); i++) {
-        //    word.
-        //}
-        //Assert.assertEquals("Wrong confirmation message or No confirmation message", "Your order on My Store is complete.", driver.findElement(By.tagName("body")).getText().contains());
-
         driver.findElement(By.linkText("Back to orders")).click();
         System.out.println("Clicked on the \'Back to orders\'");
     }
